@@ -152,6 +152,22 @@ int parsing(char* line, int exit) {
       		    timeinfo = localtime ( &rawtime );
 	            printf("Here is the current time and date: %s\n", asctime(timeinfo));
             }
+	    //WORD IS FOOD
+	    else if(equal_to(input, "food")){
+		response = 1;
+		printf("I don't know what food tastes like, but I wish I could take a byte!\n\n");
+	    }
+	    //WORD IS WATER
+	    else if(equal_to(input, "water")){
+		response = 1;
+		printf("I've heard it's important to stay hydrated.\n\n"); 	       
+	        printf("I would drink some, but I might short circuit!\n\n");
+	    }
+	    //WORD IS BAYLEE OR SAVANNAH. THE CREATORS!
+	    else if(equal_to(input, "baylee") || equal_to(input, "savannah")){
+		response = 1;
+		printf("That's one of my creators!\n\n");
+	    }
             //WORD IS WEATHER OR TEMPERATURE. BE HELPFUL.
             else if (equal_to(input, "weather") || equal_to(input, "temperature") || equal_to(input, "temp")){
 	            printf("Here is MSN's weather report.\n\n");
