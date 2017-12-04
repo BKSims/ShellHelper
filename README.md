@@ -1,4 +1,4 @@
-# ShellHelper
+# Codey the ShellHelper
 
 To run this project, cd into containing file and type in 'make' to create object files. Then type 'make run' to run the custom terminal. The included helper can be called from this terminal by typing 'helper' or 'codey'.
 
