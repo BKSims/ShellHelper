@@ -22,8 +22,8 @@ int equal_to( char* str1, char* str2 );
 void reformat_string(char *src, char *dst);
 /** 
 -----------------------------------------------------------------------
-	This function is used to convert a string into lower-case,
-	non-punctuationed version
+	This function is used to convert a string into a lower-case,
+	non-punctuated version
 -----------------------------------------------------------------------
 */
 
