@@ -10,6 +10,8 @@ The Codey helper can respond to several inquiries, including requests such as fi
 
 * To find the date, time, or weather, simply ask him with these words.
 
+* Sit back and have a chat with Codey!
+
 * Be polite. Say please and thank you!
 
 * Say good bye to leave the helper!
